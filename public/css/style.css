@@ -1,0 +1,35 @@
+body {
+    background-image: url('https://coolbackgrounds.io/images/backgrounds/white/white-radial-gradient-a5802da1.jpg');
+    background-size: cover;
+}
+
+main {
+    top: 30px;
+}
+#logo {
+    height: 50px;
+}
+
+.for_fixed_header {
+    position: relative;
+    top: 65px;
+}
+
+.hover-text-decoration-none:hover {
+    text-decoration: none;
+}
+
+
+@media only screen and (min-width: 768px) {
+  ._resize {
+      display: flex;
+      align-self: center;
+      width: 50%;
+  }
+
+}
+
+.square {
+    display: inline-block;
+    border: 2px solid black;
+}
